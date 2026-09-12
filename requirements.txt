@@ -1,4 +1,0 @@
-streamlit
-google-genai
-pypdf
-chromadb

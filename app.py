@@ -306,49 +306,51 @@ with st.sidebar:
     st.subheader("💡 Example Questions")
 
 
-    examples = [
+  
 
-        "How can I file an FIR in Pakistan?",
+     examples = [
 
-        "What are the rights of a tenant?",
+    "Pakistan mein FIR kaise darj karwai ja sakti hai?",
 
-        "My employer has not paid my salary. What can I do?",
+    "Agar malik makan tenant ko ghar se nikalna chahe to kya qanooni tareeqa hai?",
 
-        "How can I correct my name in NADRA records?",
+    "Agar employer meri salary nahi de raha to main kya kar sakti hoon?",
 
-        "What should I do if someone threatens me online?",
+    "NADRA record mein naam ki ghalti kaise theek karwai ja sakti hai?",
 
-        "What is the procedure for Khula?",
+    "Agar koi mujhe online dhamki de raha hai to main kya karoon?",
 
-        "What protection is available against domestic violence?",
+    "Pakistan mein khula lene ka qanooni tareeqa kya hai?",
 
-        "What happens if a cheque is dishonoured?",
+    "Aurat ko domestic violence se qanooni protection kaise mil sakti hai?",
 
-        "What are the basic rules about property fraud?",
+    "Agar cheque bounce ho jaye to kya qanooni karwai ho sakti hai?",
 
-        "What should I do after receiving a traffic challan?",
+    "Property fraud ki surat mein main kya qanooni karwai kar sakti hoon?",
 
-        "What are my rights as a consumer?",
+    "Traffic challan milne ke baad kya karna chahiye?",
 
-        "What can I do about harassment at the workplace?",
+    "Pakistan mein consumer ke kya qanooni huqooq hain?",
 
-        "What is bail and when can a person get bail?",
+    "Office mein harassment ki surat mein complaint kahan ki ja sakti hai?",
 
-        "How is inheritance distributed among legal heirs?",
+    "Bail kya hoti hai aur accused ko bail kab mil sakti hai?",
 
-        "What documents are needed for a passport?",
+    "Pakistan mein warasat ka haq legal heirs mein kaise taqseem hota hai?",
 
-        "How can I obtain an NTN?",
+    "Passport banwane ke liye kaun se documents darkar hote hain?",
 
-        "Can a school charge an unreasonable fee?",
+    "NTN kaise hasil kiya ja sakta hai?",
 
-        "What can I do in case of medical negligence?",
+    "Kya school unreasonable fee charge kar sakta hai?",
 
-        "How can I make an insurance claim?",
+    "Agar doctor ki ghalti se nuqsan ho jaye to kya qanooni karwai ho sakti hai?",
 
-        "What rights does a juvenile have under Pakistani law?"
+    "Insurance claim hasil karne ka qanooni tareeqa kya hai?",
 
-    ]
+    "Juvenile yani kam-umar bachay ko Pakistani law ke tehat kya huqooq hasil hain?"
+
+]
 
 
     for example in examples:

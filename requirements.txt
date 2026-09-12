@@ -1,6 +1,0 @@
-streamlit
-google-genai
-pypdf
-chromadb
-sentence-transformers
-torch

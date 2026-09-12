@@ -22,7 +22,7 @@ grounded legal information from a local Pakistani legal knowledge base.
 
 INSAFBOT is an AI-powered legal information assistant that helps users understand Pakistani legal topics in simple language.
 
-The application uses **RAG, ChromaDB, Sentence Transformers, and Grok by xAI** to retrieve relevant legal information before generating a response.
+The application uses **RAG, ChromaDB, Sentence Transformers, and Grok** to retrieve relevant legal information before generating a response.
 
 Users can ask questions in **English, Urdu, or Roman Urdu**.
 
@@ -55,7 +55,7 @@ ChromaDB Semantic Search
 Relevant Legal Documents
       |
       v
-Grok AI
+Grok AI Key
       |
       v
 Grounded Legal Answer
@@ -65,7 +65,7 @@ Grounded Legal Answer
 
 * Python
 * Streamlit
-* Grok AI / xAI API
+* Grok API
 * ChromaDB
 * Sentence Transformers
 * GitHub
@@ -89,13 +89,6 @@ INSAFBOT/
     └── ...25 legal documents
 ```
 
-## API Configuration
-
-INSAFBOT uses the **Grok API** for AI-generated legal explanations.
-
-For local development, configure your Grok API key using environment variables.
-
-For Streamlit Community Cloud, add the API key to:
 
 ## RAG Pipeline
 

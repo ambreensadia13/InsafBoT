@@ -87,41 +87,6 @@ INSAFBOT/
     └── ...25 legal documents
 ```
 
-## Installation
-
-```bash
-git clone https://github.com/YOUR-USERNAME/INSAFBOT.git
-cd INSAFBOT
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-Add your Gemini API key to:
-
-```text
-.streamlit/secrets.toml
-```
-
-```toml
-GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
-```
-
-Never upload your API key to GitHub.
-
-## Example Questions
-
-```text
-Police meri FIR darj nahi kar rahi, main kya kar sakta hoon?
-
-Mera CNIC gum ho gaya hai, duplicate CNIC kaise banwa sakta hoon?
-
-Khula lene ke liye aurat ko kya legal process follow karna hota hai?
-
-Office mein harassment ho rahi hai, complaint kahan file karni chahiye?
-
-Contract ki shart poori na ho to main kya legal action le sakta hoon?
-```
-
 ## Disclaimer
 
 INSAFBOT provides **general legal information** based on its available knowledge base. It is not a lawyer and does not replace professional legal advice.

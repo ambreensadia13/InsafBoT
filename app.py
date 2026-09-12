@@ -403,25 +403,25 @@ with st.sidebar:
 
     examples = [
 
-        "Mera landlord bijli aur pani band kar raha hai, main kya karun?",
+  "Qatl-e-amd ki Pakistan Penal Code mein kya saza hai?",
 
-        "Mera boss meri salary nahi de raha, mere rights kya hain?",
+    "Agar koi shakhs dhoka de kar paisay hasil kare to konsa jurm banta hai?",
 
-        "Mujhe online blackmail kiya ja raha hai, main kya karun?",
+    "Criminal breach of trust kya hota hai?",
 
-        "Nikah register karwana zaroori hai?",
+    "Agar koi mujhe internet par baar baar harass ya stalk kare to PECA ke mutabiq kya offence hai?",
 
-        "Mere husband mujhe maintenance nahi de rahe, main kya kar sakti hoon?",
+    "Kya kisi minor ko online sexual purpose ke liye groom karna jurm hai?",
 
-        "Mere khilaf FIR ho gayi hai, ab mujhe kya karna chahiye?",
+    "Malicious code kya hota hai aur PECA mein iski kya punishment hai?",
 
-        "Mera landlord mujhe zabardasti ghar se nikal raha hai.",
+    "Constitution ke Article 25 mein equality of citizens ke bare mein kya kaha gaya hai?",
 
-        "Kisi ne meri private pictures online upload kar di hain.",
+    "Kya Pakistan mein sex ki bunyaad par discrimination allowed hai?",
 
-        "Mujhe job se bina wajah nikal diya gaya hai, mere legal rights kya hain?",
+    "Muslim Family Laws Ordinance ke mutabiq nikah ki registration zaroori hai?",
 
-        "Mujhe ek legal complaint/application likh kar do."
+    "Talaq dene ke baad Muslim Family Laws Ordinance ke mutabiq kya procedure follow karna hota hai?"
 
     ]
 

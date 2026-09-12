@@ -55,7 +55,7 @@ ChromaDB Semantic Search
 Relevant Legal Documents
       |
       v
-Grok AI (xAI)
+Grok AI
       |
       v
 Grounded Legal Answer
@@ -91,23 +91,11 @@ INSAFBOT/
 
 ## API Configuration
 
-INSAFBOT uses the **Grok API from xAI** for AI-generated legal explanations.
+INSAFBOT uses the **Grok API** for AI-generated legal explanations.
 
 For local development, configure your Grok API key using environment variables.
 
 For Streamlit Community Cloud, add the API key to:
-
-```text
-Settings → Secrets
-```
-
-Example:
-
-```toml
-XAI_API_KEY = "your-grok-api-key"
-```
-
-The API key should never be hardcoded in `app.py` or uploaded to GitHub.
 
 ## RAG Pipeline
 

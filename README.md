@@ -20,7 +20,7 @@
 
 ---
 
-## 📌 About INSAFBOT
+##  About INSAFBOT
 
 **INSAFBOT** is an AI-powered legal information assistant designed to help people understand Pakistani laws in simple language.
 
@@ -28,19 +28,19 @@ The application uses **Retrieval-Augmented Generation (RAG)** to retrieve releva
 
 Users can ask questions in:
 
-- 🇬🇧 English
-- 🇵🇰 Urdu
-- 🔤 Roman Urdu
+-  English
+-  Urdu
+-  Roman Urdu
 
 INSAFBOT provides answers based on the legal documents available in its knowledge base and displays the relevant legal sources used to generate the response.
 
-> ⚠️ INSAFBOT provides general legal information and is not a replacement for a qualified lawyer or professional legal advice.
+>  INSAFBOT provides general legal information and is not a replacement for a qualified lawyer or professional legal advice.
 
 ---
 
-# ✨ Features
+#  Features
 
-## 🤖 AI Legal Question Answering
+##  AI Legal Question Answering
 
 Users can ask questions related to Pakistani laws and receive AI-generated explanations based on retrieved legal documents.
 
@@ -50,7 +50,7 @@ Example:
 
 ---
 
-## 🔎 Retrieval-Augmented Generation (RAG)
+##  Retrieval-Augmented Generation (RAG)
 
 INSAFBOT does not rely only on the AI model's general knowledge.
 

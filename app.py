@@ -868,7 +868,7 @@ Do not create a separate Sources section.
                     "INSAFBOT could not generate an answer."
                 )
 
-           /* ============================================================
+ /* ============================================================
    SOURCES
    ============================================================ */
 
@@ -893,10 +893,9 @@ Do not create a separate Sources section.
     ) !important;
 
     -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
     background-clip: text !important;
-
-    color: #38bdf8 !important;
+    -webkit-text-fill-color: transparent !important;
+    color: transparent !important;
 }
 # ============================================================
 # INFORMATION CARD

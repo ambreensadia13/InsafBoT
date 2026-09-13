@@ -1,4 +1,4 @@
-from  import streamlit as st
+import streamlit as st
 from openai import OpenAI
 
 from rag import build_database, search_laws

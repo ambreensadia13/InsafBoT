@@ -868,43 +868,36 @@ Do not create a separate Sources section.
                     "INSAFBOT could not generate an answer."
                 )
 
-            # ====================================================
-            # SOURCES
-            # ====================================================
+           /* ============================================================
+   SOURCES
+   ============================================================ */
 
-            if sources:
+.source-card {
+    background-color: #111827 !important;
 
-                with st.expander(
-                    "📚 Sources used"
-                ):
+    border: 1px solid #334155 !important;
+    border-radius: 10px !important;
 
-                    for index, source in enumerate(
-                        sources,
-                        start=1,
-                    ):
+    padding: 0.8rem 1rem !important;
+    margin-bottom: 0.5rem !important;
 
-                        safe_source = html.escape(
-                            source
-                        )
+    font-size: 0.9rem !important;
+    font-weight: 700 !important;
 
-                        st.markdown(
-                            f"""
-                            <div class="source-card">
-                                📄 {index}. {safe_source}
-                            </div>
-                            """,
-                            unsafe_allow_html=True,
-                        )
+    overflow-wrap: anywhere !important;
 
-        except Exception as error:
+    background-image: linear-gradient(
+        90deg,
+        #38bdf8,
+        #8b5cf6
+    ) !important;
 
-            st.error(
-                "An error occurred while processing your question."
-            )
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
 
-            st.exception(error)
-
-
+    color: #38bdf8 !important;
+}
 # ============================================================
 # INFORMATION CARD
 # ============================================================

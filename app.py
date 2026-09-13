@@ -1338,44 +1338,38 @@ if st.session_state.answer:
    # ========================================================
 # SOURCES
 # ========================================================
+# ========================================================
+# SOURCES
+# ========================================================
+
+unique_sources = []
+
+for metadata in metadatas:
+
+    source = str(
+        metadata.get("source", "Unknown")
+    ).strip()
+
+    if (
+        source
+        and source != "Unknown"
+        and source not in unique_sources
+    ):
+        unique_sources.append(source)
+
+st.session_state.sources = unique_sources
+st.session_state.show_sources = False
+
+# ========================================================
+# DISPLAY SOURCES
+# ========================================================
 
 if st.session_state.show_sources:
 
-    st.markdown(
-        '<div class="sources-heading">Sources</div>',
-        unsafe_allow_html=True
-    )
+    st.markdown("### Sources")
 
-    if not st.session_state.sources:
-
-        st.info(
-            "No sources available."
-        )
-
-    else:
-
-        for source in st.session_state.sources:
-
-            clean_source = str(
-                source
-            ).strip()
-
-            safe_source = html.escape(
-                clean_source
-            )
-
-            st.markdown(
-                f"""
-                <div class="source-card">
-
-                    <div class="source-name">
-                        {safe_source}
-                    </div>
-
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
+    for source in st.session_state.sources:
+        st.write(source)
 # ============================================================
 # DISCLAIMER
 # ============================================================

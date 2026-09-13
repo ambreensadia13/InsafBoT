@@ -301,6 +301,145 @@ section[data-testid="stSidebar"] button:active {
     }
 }
 ```
+```css
+/* ========================================================
+   STREAMLIT SELECTBOXES
+   MAKE SETTINGS DARK
+   ======================================================== */
+
+section[data-testid="stSidebar"] div[data-baseweb="select"] > div {
+    background-color: rgba(15, 23, 42, 0.90) !important;
+    color: white !important;
+    border: 1px solid rgba(96, 165, 250, 0.35) !important;
+    border-radius: 8px !important;
+}
+
+section[data-testid="stSidebar"] div[data-baseweb="select"] span {
+    color: white !important;
+}
+
+section[data-testid="stSidebar"] div[data-baseweb="select"] svg {
+    fill: white !important;
+}
+
+
+/* ========================================================
+   SELECTBOX DROPDOWN
+   ======================================================== */
+
+div[data-baseweb="popover"] {
+    background-color: #0f172a !important;
+}
+
+div[data-baseweb="popover"] ul {
+    background-color: #0f172a !important;
+}
+
+div[data-baseweb="popover"] li {
+    background-color: #0f172a !important;
+    color: white !important;
+}
+
+div[data-baseweb="popover"] li:hover {
+    background-color: #172554 !important;
+    color: white !important;
+}
+
+
+/* ========================================================
+   LEGAL RESOURCES BUTTON
+   SAME COLOR AS SOURCE BOXES
+   ======================================================== */
+
+div[data-testid="stButton"] button {
+    background: rgba(15, 23, 42, 0.90) !important;
+
+    color: white !important;
+
+    border: 1px solid rgba(96, 165, 250, 0.35) !important;
+
+    border-radius: 8px !important;
+
+    min-height: 45px !important;
+
+    font-weight: 500 !important;
+}
+
+div[data-testid="stButton"] button p {
+    color: white !important;
+}
+
+
+/* Legal Resources hover */
+
+div[data-testid="stButton"] button:hover {
+    background: rgba(15, 23, 42, 0.90) !important;
+
+    color: white !important;
+
+    border-color: #60a5fa !important;
+}
+
+
+/* ========================================================
+   MOBILE SIDEBAR
+   ======================================================== */
+
+@media (max-width: 768px) {
+
+    section[data-testid="stSidebar"] {
+        background:
+            linear-gradient(
+                180deg,
+                #0f172a,
+                #172554
+            ) !important;
+    }
+
+    section[data-testid="stSidebar"] div[data-baseweb="select"] > div {
+        background-color: rgba(15, 23, 42, 0.90) !important;
+
+        color: white !important;
+
+        border: 1px solid rgba(96, 165, 250, 0.35) !important;
+
+        border-radius: 8px !important;
+    }
+
+    section[data-testid="stSidebar"] div[data-baseweb="select"] span {
+        color: white !important;
+    }
+
+    section[data-testid="stSidebar"] button {
+        background: rgba(15, 23, 42, 0.90) !important;
+
+        color: white !important;
+
+        border: 1px solid rgba(96, 165, 250, 0.35) !important;
+
+        border-radius: 8px !important;
+    }
+
+    section[data-testid="stSidebar"] button p {
+        color: white !important;
+    }
+
+    /* Legal Resources button */
+    div[data-testid="stButton"] button {
+        background: rgba(15, 23, 42, 0.90) !important;
+
+        color: white !important;
+
+        border: 1px solid rgba(96, 165, 250, 0.35) !important;
+
+        border-radius: 8px !important;
+    }
+
+    div[data-testid="stButton"] button p {
+        color: white !important;
+    }
+}
+```
 
     /* ========================================================
        DISCLAIMER

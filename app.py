@@ -197,6 +197,110 @@ st.markdown(
         font-weight: 600;
     }
 
+```css
+/* ========================================================
+   SOURCE CARDS + EXAMPLE QUESTION BUTTONS
+   SAME COLOR
+   ======================================================== */
+
+.source-card {
+    background: rgba(15, 23, 42, 0.90) !important;
+
+    border-left:
+        4px solid #60a5fa;
+
+    padding: 12px 15px;
+
+    margin-bottom: 8px;
+
+    border-radius: 8px;
+
+    color: white !important;
+
+    font-size: 14px;
+}
+
+.source-card * {
+    color: white !important;
+}
+
+.source-card strong {
+    color: white !important;
+    font-weight: 600;
+}
+
+
+/* ========================================================
+   EXAMPLE QUESTIONS
+   MATCH SOURCE CARD COLOR
+   ======================================================== */
+
+section[data-testid="stSidebar"] button {
+    background: rgba(15, 23, 42, 0.90) !important;
+
+    color: white !important;
+
+    border: 1px solid rgba(96, 165, 250, 0.35) !important;
+
+    border-radius: 8px !important;
+
+    padding: 10px 12px !important;
+
+    margin-bottom: 6px !important;
+
+    min-height: 45px !important;
+
+    text-align: left !important;
+
+    transition: all 0.2s ease-in-out;
+}
+
+section[data-testid="stSidebar"] button p {
+    color: white !important;
+}
+
+section[data-testid="stSidebar"] button:hover {
+    background: rgba(15, 23, 42, 0.90) !important;
+
+    border-color: #60a5fa !important;
+}
+
+section[data-testid="stSidebar"] button:active {
+    background: rgba(15, 23, 42, 0.90) !important;
+}
+
+
+/* ========================================================
+   MOBILE
+   ======================================================== */
+
+@media (max-width: 768px) {
+
+    section[data-testid="stSidebar"] button {
+        background: rgba(15, 23, 42, 0.90) !important;
+
+        color: white !important;
+
+        border-radius: 8px !important;
+
+        min-height: 48px !important;
+
+        padding: 10px 12px !important;
+
+        font-size: 14px !important;
+    }
+
+    .source-card {
+        background: rgba(15, 23, 42, 0.90) !important;
+
+        border-radius: 8px !important;
+
+        padding: 12px 15px !important;
+
+        font-size: 14px !important;
+    }
+}
+```
 
     /* ========================================================
        DISCLAIMER

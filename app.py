@@ -1429,34 +1429,36 @@ if st.session_state.answer:
         )
 
 
-    # ========================================================
-    # SOURCES
-    # ========================================================
+  # ============================================================
+# SOURCES
+# ============================================================
 
-    if st.session_state.show_sources:
+if st.session_state.show_sources:
 
-        st.markdown(
-            """
-            <div class="sources-heading">
-                Sources
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
+    st.markdown(
+        '<div class="sources-heading">Sources</div>',
+        unsafe_allow_html=True
+    )
 
+    if not st.session_state.sources:
 
-        if not st.session_state.sources:
+        st.info("No sources available.")
 
-            st.info(
-                "No sources available."
+    else:
+
+        for source in st.session_state.sources:
+
+            clean_source = str(source).strip()
+
+            st.markdown(
+                f"""
+                <div class="source-card">
+                    <div class="source-name">{html.escape(clean_source)}</div>
+                    <div class="source-page">Page: N/A</div>
+                </div>
+                """,
+                unsafe_allow_html=True
             )
-
-        else:
-
-            for source in (
-                st.session_state.sources
-            ):
-
                 # --------------------------------------------
                 # CLEAN SOURCE NAME
                 # --------------------------------------------

@@ -1,4 +1,4 @@
-in my sourse i just want to see from which .txt file the law is taken from  import streamlit as st
+from  import streamlit as st
 from openai import OpenAI
 
 from rag import build_database, search_laws

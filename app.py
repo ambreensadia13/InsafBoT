@@ -1335,64 +1335,47 @@ if st.session_state.answer:
         )
 
 
-    # ========================================================
-    # SOURCES
-    # ========================================================
+   # ========================================================
+# SOURCES
+# ========================================================
 
-    if st.session_state.show_sources:
+if st.session_state.show_sources:
 
-        st.markdown(
-            '<div class="sources-heading">Sources</div>',
-            unsafe_allow_html=True
+    st.markdown(
+        '<div class="sources-heading">Sources</div>',
+        unsafe_allow_html=True
+    )
+
+    if not st.session_state.sources:
+
+        st.info(
+            "No sources available."
         )
 
+    else:
 
-        if not st.session_state.sources:
+        for source in st.session_state.sources:
 
-            st.info(
-                "No sources available."
+            clean_source = str(
+                source
+            ).strip()
+
+            safe_source = html.escape(
+                clean_source
             )
 
+            st.markdown(
+                f"""
+                <div class="source-card">
 
-        else:
-
-            for source in (
-                st.session_state.sources
-            ):
-
-                clean_source = str(
-                    source
-                ).strip()
-
-
-                # IMPORTANT:
-                # Escape source filename.
-                # This prevents HTML from appearing
-                # as executable content.
-
-                safe_source = html.escape(
-                    clean_source
-                )
-
-
-                st.markdown(
-                    f"""
-                    <div class="source-card">
-
-                        <div class="source-name">
-                            {safe_source}
-                        </div>
-
-                        <div class="source-page">
-                            Page: N/A
-                        </div>
-
+                    <div class="source-name">
+                        {safe_source}
                     </div>
-                    """,
-                    unsafe_allow_html=True
-                )
 
-
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
 # ============================================================
 # DISCLAIMER
 # ============================================================
